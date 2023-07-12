@@ -1,18 +1,28 @@
+.loginSpacing {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
 .titleDiv {
-    margin-top: 30%;
-    margin-left: 5%;
-    width: 95%;
+    text-align: center;
 }
 .titleTxt {
     color: white;
     font-size: 4rem;
+    margin: 0;
 }
 .titleSubTxt {
     color: white;
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
-.formCol {
-    margin-top: 15%;
+.loginForm {
+    padding: 1.5rem 2rem 2rem 2rem;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+.loginForm:hover {
+    background-color: #252525;
 }
 .formLabel {
     color: white;
@@ -20,8 +30,8 @@
 }
 .formInput {
     color: white;
-    background-color: #1a1a1a;
-    border: 0.1rem solid #1a1a1a;
+    background-color: #1a1a1a00;
+    border: 0.1rem solid #1a1a1a00;
     border-bottom: 0.1rem solid white;
     border-radius: 0;
 }
@@ -38,4 +48,20 @@
     background-color: #1a1a1a;
     border: 0.1rem solid white;
     box-shadow: 0 0 2px 0.1rem white;
+}
+.btnDiv {
+    display: flex;
+    justify-content: center;
+}
+.loginBtn {
+    color: white;
+    font-size: 1.5rem;
+    background-color: #1a1a1a00;
+    border: 0.1rem solid #1a1a1a00;
+    border-radius: 5px;
+    padding: 0 1rem 0 1rem;
+}
+.loginBtn:hover {
+    background-color: #1a1a1a;
+    border: 0.1rem solid white;
 }
